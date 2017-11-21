@@ -415,7 +415,7 @@ extern "C" {
 	}
 
 	#define DUCKINGPERCENTAGE 10
-	#define DUCKINGSPOTIFY 0.5f
+	#define DUCKINGSPOTIFY 0.75f
 
 	void ts3plugin_onTalkStatusChangeEvent(uint64 serverConnectionHandlerID, int status, int isReceivedWhisper, anyID clientID) {
 		if (talkingClients < 0) {
